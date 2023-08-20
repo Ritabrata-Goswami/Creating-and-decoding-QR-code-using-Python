@@ -36,9 +36,8 @@ print('----------------------------------')
 url = pyqrcode.create(encoded_text)
 
 
-# url.svg(r"C:\Users\abc123\Desktop\python\QR_code\file\myqr.svg", scale = 8)
+# url.svg(r"C:\Users\...\myqr.svg", scale = 8)
 url.png(r'C:\Users\...\test111.png', scale = 12, module_color="#3333ff")
-
 
 
 #decoding QR
