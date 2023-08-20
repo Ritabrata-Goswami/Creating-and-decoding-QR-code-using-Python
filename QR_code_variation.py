@@ -37,13 +37,13 @@ url = pyqrcode.create(encoded_text)
 
 
 # url.svg(r"C:\Users\abc123\Desktop\python\QR_code\file\myqr.svg", scale = 8)
-url.png(r'C:\Users\abc123\Desktop\python\QR_code\file\test111.png', scale = 12, module_color="#3333ff")
+url.png(r'C:\Users\...\test111.png', scale = 12, module_color="#3333ff")
 
 
 
 #decoding QR
 
-img = Image.open(r'C:\Users\abc123\Desktop\python\QR_code\file\test111.png')
+img = Image.open(r'C:\Users\...\test111.png')
 output = pyzbar.decode(img)
 print('---------Dcrypted text----------')
 print("original:- "+str(output[0].data))
