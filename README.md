@@ -10,6 +10,10 @@ After concatenation that string was encrypted using Fernet module.
 ```
 from cryptography.fernet import Fernet
 ```
+PIP installation:-
+```
+pip install cryptography
+```
 The process happens like this:-
 ```
 from cryptography.fernet import Fernet
